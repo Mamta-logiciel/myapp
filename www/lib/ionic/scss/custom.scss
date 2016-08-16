@@ -1,0 +1,16 @@
+/*Variables*/
+
+/*Mixins*/
+
+/*Header code*/
+.custom-header {
+    border-color: #b91e00;
+    background-color: #b91e00;
+	
+	[nav-bar-transition="android"]{
+		.buttons {
+			border-right: 1px solid #dc3d1e;
+			margin: -5px 0;
+		}	
+	} 
+}

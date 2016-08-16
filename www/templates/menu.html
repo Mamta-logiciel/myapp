@@ -1,0 +1,54 @@
+	<ion-side-menus enable-menu-with-back-views="false">
+	<ion-side-menu-content>
+		<ion-nav-bar class="bar bar-header bar-assertive custom-header">
+			<ion-nav-back-button>
+			</ion-nav-back-button>
+
+			<ion-nav-buttons side="left">
+				<button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+				</button>
+			</ion-nav-buttons>
+		</ion-nav-bar>
+		<ion-nav-view name="menuContent"></ion-nav-view>
+	</ion-side-menu-content>
+
+	<ion-side-menu side="left">
+		<ion-content class="social-sidebar sidebar-back">
+			<div class="row sidebar-username-wrapper">
+				<div class="col col-33">
+                	<img src="img/profile-placeholder.png" class="sidebar-username"/>
+				</div>
+				<div class="col col-65">
+                	<p class="text-white user-name">Demo User</p>
+                	<p class="text-white phone-number">123-456-7890</p>
+				</div>
+			</div>
+			<ion-list class="custom-list">
+				<ion-item menu-close href="#/app/profile" ui-sref="app.profile" ui-sref-active="active">
+					<i class="menu-icon ion-android-person"></i> Profile
+				</ion-item>
+				<ion-item menu-close href="#/app/my-bid" ui-sref="app.my-bid" ui-sref-active="active">
+					<i class="menu-icon ion-social-usd"></i> My Bids
+				</ion-item>
+				<ion-item menu-close href="#/app/bid-detail" ui-sref="app.bid-detail" ui-sref-active="active">
+					<i class="menu-icon ion-social-bitcoin"></i> Bid a Job
+				</ion-item>
+				<ion-item menu-close href="#/app/jobs-awarded" ui-sref="app.jobs-awarded" ui-sref-active="active">
+					<i class="menu-icon ion-trophy"></i> Jobs Awarded
+				</ion-item>
+				<ion-item menu-close href="#/app/my-estimatess" ui-sref="app.my-estimates" ui-sref-active="active">
+					<i class="menu-icon ion-trophy"></i> My Estimates
+				</ion-item>
+				<ion-item menu-close href="#/app/proposal-listing-contractors" ui-sref="app.proposal-listing-contractors" ui-sref-active="active">
+					<i class="menu-icon ion-document-text"></i> Proposals
+				</ion-item>
+				<ion-item menu-close>
+					<i class="menu-icon ion-android-settings"></i> Settings
+				</ion-item>
+				<ion-item menu-close href="#/login" ui-sref="login" ui-sref-active="active">
+					<i class="menu-icon ion-log-out"></i> Sign Out
+				</ion-item>
+			</ion-list>
+		</ion-content>
+	</ion-side-menu>
+</ion-side-menus>

@@ -974,7 +974,7 @@ td, th {
 	}
 }
 .welcome-text {
-	font-size: 3em;
+	font-size: 2em;
 	display: inline-block;
 	line-height: normal;
 	text-align: center;
@@ -986,5 +986,99 @@ td, th {
 	}
 	.button {
 		font-size: 22px;
+	}
+}
+.application-listing {
+	.app-icon {
+		display: inline-block;
+    	width: 25px;
+	}
+}
+.tab-text {
+	.tabs {
+		top: 0;
+	}
+	.tab-content {
+    	padding: 8px;
+    	margin-top: 55px;
+	}
+}
+.top0 {
+	top: 0;
+}
+.listing-disc {
+	li {
+		margin-top: 10px;
+	}
+}
+.focus-icons {
+	padding-left: 0;
+	li {
+		position: relative;
+	    list-style: none;
+	    padding-left: 75px;
+	    line-height: 2.6;
+		.listing-icons {
+			position: absolute;
+			left: 0;
+			top: 2px;
+			img {
+				width: 65px;
+			}
+		}
+	}
+}
+.top-filters {
+	height:60px;
+	.gen-filter {
+		width: 100%;
+	}
+	.sch-filter {
+		width: 100%;
+	}
+}
+.filter-listing {
+	li {
+		padding: 5px 10px !important;
+		border-bottom: 1px solid #ddd;
+	}
+	.active {
+		background: #ddd;
+	}
+}
+.gen-pop {
+	top: 126px !important;
+    left: 16px !important; 
+    height: 16%;
+}
+.sch-pop {
+	top: 126px !important;
+	height: 16%;
+}
+.schm-content {
+	.card {
+		margin-top: 55px;
+	}
+}
+.custom_btn {
+	line-height: 1.5;
+}
+.gen-detail {
+	margin-top: 55px;
+	padding: 8px;
+	h3 {
+		font-size: 1.3em;
+	}
+	.sub-heading {
+		margin-top: 15px;
+	}
+	.gen-detail-ul {
+		margin-top: 10px;
+		li {
+			padding-top: 8px;
+		}
+	}
+	.gen-text {
+		margin-top: 15px;
 	}
 }

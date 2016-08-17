@@ -1,9 +1,23 @@
 <ion-view view-title="Schemes for Government of India">
-	<!-- <div class="bar bar-subheader">
-		<h2 class="title">Advantage Haryana</h2>
-	</div> -->
-	<ion-content class="bid-listing-col">
-		<div class="card">
+	<div class="bar bar-subheader top-filters">
+		<div class="row">
+			<div class="col">
+				<p>
+				  <button ng-click="generalPopover($event)" class="gen-filter">Sector</button>
+				</p>
+			</div>
+			<div class="col">
+				<p>
+				  <button ng-click="schemePopover($event)" class="sch-filter">Scheme</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<ion-content class="bid-listing-col schm-content">
+
+		<div class="card" ng-hide="template.length == 0" ng-include="'templates/includes/'+template+'.html'" ></div>
+
+		<div class="card" ng-hide="template.length > 1">
 			<div class="item item-text-wrap">
 				<p class="sub-heading"><b>Micro & Small Enterprises Cluster Development Programme (MSE-CDP)</b></p>
 				<p> The Ministry of MSME has adopted cluster development approach as a key strategy for enhancing productivity and competitiveness as well as capacity building of MSEs and their collectives in the country. Clustering of units also enables the providers of various services to them, including banks and credit agencies, to provide their services more economically, thus reducing the costs and improving the availability of services for these enterprises.</p>

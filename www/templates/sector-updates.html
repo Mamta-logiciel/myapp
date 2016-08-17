@@ -1,10 +1,9 @@
-<ion-view view-title="Sector Updates">
-	<!-- <div class="bar bar-subheader">
-		<h2 class="title">Advantage Haryana</h2>
-	</div> -->
+<ion-view view-title="Sector Updates">	
 	<ion-content class="bid-listing-col">
-		<div class="card">
-			<div class="item item-text-wrap">
+		<ion-tabs class="tabs-icon-top tab-text">
+
+			<ion-tab title="Advantage Haryana" icon-on="ion-android-star" icon-off="ion-android-star">
+				<ion-content>
 				<p class="sub-heading"><b>Advantage Haryana</b></p>
 				<ul class="listing-disc">
 					<li>
@@ -50,10 +49,54 @@
 						Plethora of Investment Opportunities: Huge potential in special economic zones (SEZs), Kundli-Manesar- Palwal (KMP) global corridor and Delhi Mumbai Industrial Corridor (DMIC) zones
 					</li>
 				</ul>
-				<p>
-					<strong>Focus sectors</strong> - Agro based and Food processing, IT/ITeS &amp; ESDM, Renewable Energy, Automotive industry, Footwear &amp; Accessories, Textiles, Aerospace &amp; Defence, Pharmaceuticals &amp;Chemicals
-				</p>
-			</div>
-		</div>
+				</ion-content>
+			</ion-tab>
+
+			<ion-tab title="Focus Sectors" icon-on="ion-loop" icon-off="ion-loop">
+			<ion-content>
+				<p class="sub-heading"><b>Focus Sectors</b></p>
+				<ul class="listing-disc focus-icons">
+					<li>
+						<span class="listing-icons">
+							<img src="img/automotive.png">
+						</span>
+						Renewable Energy, Automotive industry
+					</li>
+					<li>
+						<span class="listing-icons">
+							<img src="img/phar.png">
+						</span>
+						Pharmaceuticals &amp;Chemicals
+					</li>
+					<li>
+						<span class="listing-icons">
+							<img src="img/text.png">
+						</span>
+						IT/ITeS &amp; ESDM
+					</li>
+					<li>
+						<span class="listing-icons">
+							<img src="img/food.png">
+						</span>
+						Agro based and Food processing
+					</li>
+				<!-- 	<li>
+						<span class="listing-icons">
+							<img src="img/food.png">
+						</span>
+						Footwear &amp; Accessories
+					</li> -->
+					<li>
+						<span class="listing-icons">
+							<img src="img/defens.png">
+						</span>
+						Aerospace &amp; Defence
+					</li>
+				</ul>
+			</ion-content>
+			</ion-tab>
+
+		</ion-tabs>
+		
 	</ion-content>
 </ion-view>
